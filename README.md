@@ -12,7 +12,7 @@ This project has been built upon Raspberry Pi 2.0 using Raspbian Jessie OS.
 #Proxy Settings:
 ###Setting proxy authentication in apt.conf file:
 ```
-$ sudo gedit /etc/apt/apt.conf
+$ sudo nano /etc/apt/apt.conf
 ```
 Add following lines in the file:
 ```
@@ -24,7 +24,7 @@ Acquire::socks::proxy "socks://username:password@proxy:port/";
 ```
 ###Setting proxy authentication in environment file:
 ```
-$ sudo gedit /etc/environment
+$ sudo nano /etc/environment
 ```
 Add following lines in the file:
 ```
@@ -35,7 +35,7 @@ socks_proxy="socks://username:password@proxy:port/"
 ```
 ###Setting proxy authentication in bash file:
 ```
-$ sudo gedit ~/.bashrc
+$ sudo nano ~/.bashrc
 
 ```
 Add following lines at the last line of the file:
