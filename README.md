@@ -55,7 +55,7 @@ To install pip3 which will be further used to install other python libraries.
 $ sudo apt-get install python3-pip
 
 ```
-###For Image Processing this project uses python scikit-image library and its dependecies.
+###For Image Processing this project uses python [scikit-image](http://scikit-image.org/) library and its dependecies.
 To install scikit-image library and its dependecies :
 ```
 $ sudo pip3 install numpy scipy scikit-image
