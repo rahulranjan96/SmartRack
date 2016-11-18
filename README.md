@@ -60,7 +60,7 @@ To install scikit-image library and its dependecies :
 ```
 $ sudo pip3 install numpy scipy scikit-image
 ```
-###For Speech Processing this project uses speak synthesiser software espeak,python SpeechRecognition library and its dependecies.
+###For Speech Processing this project uses speak synthesiser software [espeak](http://espeak.sourceforge.net/),python [SpeechRecognition](https://pypi.python.org/pypi/SpeechRecognition/) library and its dependecies.
 To install SpeechRecognition library and its dependencies:
 ```
 $ sudo apt-get install espeak
