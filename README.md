@@ -62,82 +62,31 @@ $ sudo pip3 install -U numpy
 ###For Image Processing this project uses Python scikit-image library and its dependecies.
 To install scikit-image library and its dependecies :
 ```
-$ sudo pip3 install -U nltk
+$ sudo pip3 install scipy scikit-image
 ```
-Then we have to download the training data for NLTK.
-
+###For Speech Processing this project uses Python SpeechRecognition library and its dependecies.
+To install SpeechRecognition library and its dependencies:
 ```
-$ python3
->> import nltk
->> nltk.download()
-NLTK Downloader
----------------------------------------------------------------------------
-    d) Download   l) List    u) Update   c) Config   h) Help   q) Quit
----------------------------------------------------------------------------
-Downloader> d
-
-Download which package (l=list; x=cancel)?
-  Identifier> all
-
-
+$ git clone http://people.csail.mit.edu/hubert/git/pyaudio.git
+$ cd pyaudio
+$ sudo python3 setup.py install
+$ cd ..
+$ rm -rf pyaudio/
+$ sudo apt-get installl libportaudio-dev
+$ sudo apt-get install python3-dev
+$ sudo apt-get install libportaudio0 libportaudio2 libportaudiocpp0 portaudio19-dev
+$ sudo pip3 install SpeechRecognition
 ```
-
-To install Polyglot:
-```
-$ sudo pip3 install polyglot
-
-```
-Then we have to download models for Polyglot.
-```
-$ python3
->> from polyglot.downloader import downloader
->> downloader.download("embeddings2.en")
->> downloader.download("pos2.en")
->> downloader.download("ner2.en")
-```
-
-###We are using MySQLdb to connect MySQL database via python script.
-To install MySQLdb:
-```
-$ sudo apt-get install python3-mysqldb
-
-
-```
-
-###We are also using Tkinter and Pillow libraries for building GUI.
-To install Tkinter:
-```
-$ sudo apt-get install python3-tk
-
-```
-To install Pillow:
-```
-$ sudo pip3 install Pillow
-$ sudo apt-get install libtiff5-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python3-tk
-$ sudo apt-get install python3-pil.imagetk OR $ sudo apt-get install python3-imaging-tk
-
-```
-#Setting up the server:
-
-###Download and install XAMPP server for Linux.[https://www.apachefriends.org/index.html]
-
-
-###To Start the XAMPP Server:
-```
-$ sudo /opt/lampp/lampp start
-
-```
-
 #To download and run this application
 
 ###Clone this reository:
 ```
-$ git clone https://github.com/rahulranjan96/TextMiner.git
+$ git clone https://github.com/rahulranjan96/SmartRack.git
 ```
 ###To run this application:
 
 ```
-$ cd TextMiner
+$ cd SmartRack
 $ python3 main.py
 
 ```
