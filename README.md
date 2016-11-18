@@ -3,6 +3,9 @@
 SmartRack 1.0
 ==============
 
+Raspberry-Pi Setup
+------------------
+
 #Platforms
 This project has been built upon Raspberry Pi 2.0 using Raspbian Jessie OS.
 
@@ -90,3 +93,6 @@ $ cd SmartRack
 $ python3 main.py
 
 ```
+
+Arduino Setup
+-------------
