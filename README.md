@@ -55,18 +55,15 @@ To install pip3 which will be further used to install other python libraries.
 $ sudo apt-get install python3-pip
 
 ```
-###We also require numpy library to do some mathematical calculations.
-```
-$ sudo pip3 install -U numpy
-```
-###For Image Processing this project uses Python scikit-image library and its dependecies.
+###For Image Processing this project uses python scikit-image library and its dependecies.
 To install scikit-image library and its dependecies :
 ```
-$ sudo pip3 install scipy scikit-image
+$ sudo pip3 install numpy scipy scikit-image
 ```
-###For Speech Processing this project uses Python SpeechRecognition library and its dependecies.
+###For Speech Processing this project uses speak synthesiser software espeak,python SpeechRecognition library and its dependecies.
 To install SpeechRecognition library and its dependencies:
 ```
+$ sudo apt-get install espeak
 $ git clone http://people.csail.mit.edu/hubert/git/pyaudio.git
 $ cd pyaudio
 $ sudo python3 setup.py install
