@@ -93,6 +93,3 @@ $ cd SmartRack
 $ python3 main.py
 
 ```
-
-Arduino Setup
--------------
